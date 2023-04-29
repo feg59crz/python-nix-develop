@@ -16,6 +16,7 @@
           inherit system overlays;
         };
         mppackages = p: with p; [
+          transformers
           pandas
           numpy
           scipy
